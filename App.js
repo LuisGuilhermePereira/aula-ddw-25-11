@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View,TextInput, TouchableOpacity } from 'react-native';
 
 function enviar(){
   alert('Você clicou no botão!');
@@ -9,7 +9,7 @@ function enviar(){
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Segundo Aplicativo</Text>
+      <Text style={styles.titulo}>TRICAMPEÃO</Text>
       <TextInput style={styles.campo}></TextInput>
       <TouchableOpacity style={styles.botao} onPress={enviar}>
         <Text style={styles.textobotao}>Mostrar</Text>
